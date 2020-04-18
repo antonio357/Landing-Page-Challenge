@@ -19,6 +19,70 @@
     border-radius: 5px 5px 0 0;
 }
 
-.card_intro_content {
+.card_intro_text_content {
     padding: 2px 16px;
 }
+
+/* MODAL THINGS */
+
+.pop-up_modal-card {
+    display: inline-block;
+}
+
+.modal-exit {
+    color: #363636;
+    font-size: 2em;
+    align-self: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.modal {
+    background-color: rgba(0,0,0, .8);
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+.modal-content {
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: 1em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+
+#new-modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#new-modal:target .modal-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+a {
+    all: inherit;
+}
+
+/* button {
+    background-color: white;
+    border: 0;
+    padding: 0;
+    text-align: unset;
+} */
