@@ -1,4 +1,4 @@
-.text_fount {
+body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
 }
@@ -68,7 +68,7 @@ button {
     border-radius: 3px;
 }
 
-/* ORGANIZING CARDS IN A ROW */
+/* ORGANIZING CARDS IN A ROW AS COLUMNS*/
 
 .column {
     float: left;
@@ -89,4 +89,54 @@ button {
         width: 100%;
         display: block;
     }
+}
+
+/* NAVBAR */
+
+#navbar {
+    overflow: hidden;
+    background-color: rgba(3, 3, 3, 0.596);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: inherit;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    border-radius: 5px;
+    background-color: rgba(28, 212, 157, 0.795);
+    color: rgb(0, 0, 0);
+}
+
+
+/* title */
+
+#title {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(194, 34, 34, 0.726);
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.page-title {
+    margin-left: 4%;
+    width: 92%;
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.596);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
