@@ -6,10 +6,16 @@ body {
 .pop-up_modal-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 30%;
+    /* width: 30%; */
     border-radius: 5px;
     margin: 10px;
     cursor: pointer;
+    /* made cause of the achor tag */
+    text-decoration: inherit;
+    color: inherit;
+    /* made cause of the achor tag */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .pop-up_modal-card:hover {
@@ -22,7 +28,12 @@ body {
 }
 
 .card-intro-text-content {
-    padding: 2px 16px;
+    /* padding: 20 16px; */
+    padding: 15px;
+    /* made cause of the achor tag */
+    text-decoration: inherit;
+    color: inherit;
+    /* made cause of the achor tag */
 }
 
 /* MODAL WITH BUTTON TAG*/
@@ -71,25 +82,27 @@ button {
 /* ORGANIZING CARDS IN A ROW AS COLUMNS*/
 
 .column {
-    float: left;
+    /* float: left; */
     width: 31%;
 }
 
-.card-row:after {
+/* .card-row:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 .card-row {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 3%;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
         width: 100%;
         display: block;
     }
-}
+} */
 
 /* NAVBAR */
 
@@ -139,4 +152,15 @@ button {
     padding-bottom: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+img {
+    height: 80%;
 }
