@@ -29,7 +29,8 @@ body {
 
 .card-intro-text-content {
     /* padding: 20 16px; */
-    padding: 15px;
+    padding-left: 15px;
+    margin-bottom: 100px;
     /* made cause of the achor tag */
     text-decoration: inherit;
     color: inherit;
