@@ -11,7 +11,7 @@
         <div id="navbar", class="text_fount navbar_element">
             <a href="#home"> HOME </a>
             <button onclick="document.getElementById('sobre').style.display='block'"> SOBRE </button>
-            <a href="#CONTATO"> CONTATO </a>
+            <button onclick="document.getElementById('contato').style.display='block'"> CONTATO </button>
             <a href="#saiba_mais"> SAIBA MAIS </a>
         </div>
 
@@ -88,9 +88,14 @@
             </div>
         </div>
 
-        <div id="contato", class="text_fount navbar_element">
-            <h2 class="page-title"> CONTATO </h2>
-            
+        <div id="contato", class="text_fount navbar_element modal">
+            <div class="modal-content">
+                <header>
+                    <span onclick="document.getElementById('contato').style.display='none'" class="modal_close_button">&times;</span>
+                    <!-- <h2 class="page-title"> CONTATO ME </h2> -->
+                </header>
+                <iframe src="http://www.123formbuilder.com/form-5400729/form" frameborder="0"></iframe>
+            </div>
         </div>
 
         <div id="saiba_mais", class="text_fount navbar_element">
