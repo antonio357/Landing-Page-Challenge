@@ -27,7 +27,8 @@
 
 /* MODAL WITH BUTTON TAG*/
 
-button { /* to avoid button deffault settings */
+button {
+    /* to avoid button deffault settings */
     all: inherit;
 }
 .modal {
@@ -60,9 +61,32 @@ button { /* to avoid button deffault settings */
     top: 0;
     padding: 8px 16px;
     cursor: pointer;
-} 
+}
 .modal_close_button:hover {
-    color:white;
+    color: white;
     background-color: rgb(253, 141, 141);
     border-radius: 3px;
+}
+
+/* ORGANIZING CARDS IN A ROW */
+
+.column {
+    float: left;
+    width: 31%;
+}
+
+.card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card-row {
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
 }
