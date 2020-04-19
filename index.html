@@ -10,8 +10,9 @@
 
         <div id="navbar", class="text_fount navbar_element">
             <a href="#home"> HOME </a>
-            <a href="#sobre"> ANTONIO </a>
-            <a href="#saiba_mais"> ESSE SITE </a>
+            <button onclick="document.getElementById('sobre').style.display='block'"> SOBRE </button>
+            <a href="#CONTATO"> CONTATO </a>
+            <a href="#saiba_mais"> SAIBA MAIS </a>
         </div>
 
         <div id="home", class="text_fount navbar_element">
@@ -67,19 +68,29 @@
                     <a class="card-intro-text-content" href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/03/15/coronavirus-ouca-podcasts-sobre-a-pandemia-de-covid-19.ghtml">
                         <h4> <b> China responde ao covid-19 e os impactos ecnonómicos dessa pandemia </b> </h4>
                     </a>
-                </div>
-
-                
+                </div>   
                 
             </div>
         </div>
         
-        <div id="sobre", class="text_fount navbar_element">
-            <h2 class="page-title"> SOBRE </h2>
+        <div id="sobre", class="text_fount navbar_element modal">
+            <div class="modal-content">
+                <header>
+                    <span onclick="document.getElementById('sobre').style.display='none'" class="modal_close_button">&times;</span>
+                    <h2 class="page-title"> ANTONIO ALVES </h2>
+                </header>
+                <div id="sobre-mim-content">
+                    <p id="sobre-mim"> Sou estudante de Engenharia de Computação, estou no 5º período do cursos mas ainda não aprendi nada de desenvolvimento web e por isso decidi entrar na Gama Academy, visando o aprendizado web durante esse tempo de quarentena, além da oportunidade de emprego pelo programa hiring coders. OBS: esse é meu primeiro site</p>
+                    <a href="https://www.linkedin.com/in/antonio-carlos-aab71b1a5/"> 
+                        <img id="sobre-mim-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdF8X5p1I0nMKa5vKcsqT5Ic96e50aUPafId75PhfrFyakkXzV&usqp=CAU"> 
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div id="contato", class="text_fount navbar_element">
             <h2 class="page-title"> CONTATO </h2>
+            
         </div>
 
         <div id="saiba_mais", class="text_fount navbar_element">
