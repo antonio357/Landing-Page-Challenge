@@ -1,5 +1,6 @@
 # Landing-Page-Challenge
 From Gama Academy assignment, the challenge is to build a landing page about covid-19.
+<a href="https://reverent-poincare-25f961.netlify.app/">Click here to open the webpage</a>
 
 # Challenge description:
 Desafio: Página de Notícias do COVID-19
