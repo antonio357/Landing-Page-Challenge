@@ -1,4 +1,4 @@
-### Link para página: https://reverent-poincare-25f961.netlify.app/, A hospedagem da aplicação fica lenta após um certo tempo sem ser usada, por isso caso a página não carregue de imediato como mostrar na figura abaixo, recaregue a página para que a hospagem registre a requisição e suba a aplicação.   
+### Link para página: https://reverent-poincare-25f961.netlify.app/, A hospedagem da aplicação fica lenta após um certo tempo sem ser usada, por isso caso a página não carregue de imediato como mostrar na figura abaixo, recaregue a página até 3 vezes para que a hospagem registre a requisição e suba a aplicação.   
 ![image](https://user-images.githubusercontent.com/45980566/194732480-e5354b64-cc63-42a0-8c05-6c8eef397abd.png)  
 
 
